@@ -1,0 +1,91 @@
+:root {
+    --color-1:#1f2023;
+    --color-2:#4d6d63;
+    --color-3:#a6c1b9;
+    --color-4:#d6e2de; 
+    --color-5:#e8eaed;
+}
+
+* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: var(--color-1); 
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1 {
+    width: 800px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    color: var(--color-5);
+    border-top: solid 15px var(--color-2);
+    border-right: solid 15px var(--color-1);
+    border-left: solid 15px var(--color-1);
+    border-bottom: solid 15px var(--color-2);
+}
+
+legend {  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    color: var(--color-5);
+    font-weight: bolder;
+    background-color: var(--color-2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+fieldset {
+    width: 800px;
+    background-color: var(--color-4);
+    border: solid 2px var(--color-2);
+    border-radius: 5px;
+}
+
+fieldset:hover{
+    background-color: var(--color-3);
+}
+
+.formulario {
+    background-color: var(--color-5);
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    border: solid 1px var(--color-2);
+    border-radius: 2px;
+}
+
+.formulario:focus{
+    background-color: var(--color-2);
+}
+
+.button {
+    background-color: var(--color-2);
+    margin: 10px;
+    padding: 10px;
+    color: var(--color-3);
+    border: solid 1px var(--color-3);
+    border-radius: 2px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    
+}
+
+footer {
+    color: var(--color-5);
+    align-self: flex-start;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+}
